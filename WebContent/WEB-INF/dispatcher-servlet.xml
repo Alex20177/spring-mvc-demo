@@ -25,7 +25,13 @@
 	</bean>
 	
 	<mvc:resources location="/resources/" mapping="/resources/**"/>
-
+	
+	<!--  
+	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basename" value="contextPath:resources/messages"/>
+		<property name="useCodeAsDefaultMessage" value="true" />
+	</bean>
+	-->
 </beans>
 
 
